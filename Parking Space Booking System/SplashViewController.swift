@@ -1,15 +1,15 @@
 //
-//  ViewController.swift
+//  SplashViewController.swift
 //  Parking Space Booking System
 //
-//  Created by Tasneem Bohra on 2018-11-01.
+//  Created by Daian Aiziatov on 05/11/2018.
 //  Copyright © 2018 Lambton. All rights reserved.
 //
 
 import UIKit
 
 class SplashViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(self.splashTimeOut(sender:)), userInfo: nil, repeats: false)
@@ -25,9 +25,8 @@ class SplashViewController: UIViewController {
         } catch {
             
         }
-       
+        
     }
-
-
+    
+    
 }
-

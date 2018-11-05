@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BA6D6412190E88C00B9B4C2 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA6D6402190E88C00B9B4C2 /* SplashViewController.swift */; };
 		3A0D756A218BCD7400960BC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0D7569218BCD7400960BC8 /* AppDelegate.swift */; };
-		3A0D756C218BCD7400960BC8 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0D756B218BCD7400960BC8 /* SplashViewController.swift */; };
 		3A0D756F218BCD7400960BC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0D756D218BCD7400960BC8 /* Main.storyboard */; };
 		3A0D7571218BCD7600960BC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0D7570218BCD7600960BC8 /* Assets.xcassets */; };
 		3A0D7574218BCD7600960BC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0D7572218BCD7600960BC8 /* LaunchScreen.storyboard */; };
@@ -34,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BA6D6402190E88C00B9B4C2 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		3A0D7566218BCD7400960BC8 /* Parking Space Booking System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parking Space Booking System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0D7569218BCD7400960BC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A0D756B218BCD7400960BC8 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		3A0D756E218BCD7400960BC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A0D7570218BCD7600960BC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A0D7573218BCD7600960BC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				3A0D7569218BCD7400960BC8 /* AppDelegate.swift */,
-				3A0D756B218BCD7400960BC8 /* SplashViewController.swift */,
 				3A0D756D218BCD7400960BC8 /* Main.storyboard */,
 				3A0D7570218BCD7600960BC8 /* Assets.xcassets */,
 				3A0D7572218BCD7600960BC8 /* LaunchScreen.storyboard */,
 				3A0D7575218BCD7600960BC8 /* Info.plist */,
+				2BA6D6402190E88C00B9B4C2 /* SplashViewController.swift */,
 			);
 			path = "Parking Space Booking System";
 			sourceTree = "<group>";
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A0D756C218BCD7400960BC8 /* SplashViewController.swift in Sources */,
 				3A0D756A218BCD7400960BC8 /* AppDelegate.swift in Sources */,
+				2BA6D6412190E88C00B9B4C2 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
